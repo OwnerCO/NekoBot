@@ -1,12 +1,12 @@
 const fs = require("fs");
 
 const config = {
-  owner: ["9999999999999", "111111111111111"],
-  botnumber: "6283159168004",
+  owner: ["51960285930"],
+  botnumber: "51960285930",
   name: "- NekoBot - Simple WhatsApp bot",
   sessions: "sessions",
   prefix: ["!", ".", "#", "/"], // Tambahkan prefix sesuai kebutuhan
-  tz: "Asia/Jakarta",
+  tz: "America/Lima",
   database: "neko-database", 
   PORT: 3000,
   
@@ -29,17 +29,17 @@ const config = {
 
   settings: {
     antiCall: true,
-    autoGoodbye: false,
-    autoJoinGc: false,
+    autoGoodbye: true,
+    autoJoinGc: true,
     autoTyping: false,
-    autoWelcome: false,
+    autoWelcome: true,
     dmOnly: false,
     groupOnly: false,
-    online: false,
+    online: true,
     readChat: false,
     readSw: false,
     reactSw: false,
-    statusOnly: false,
+    statusOnly: true,
   },
 
   messages: {
@@ -75,7 +75,7 @@ const config = {
 
   bot: {
     discord: false,
-    telegram: true,
+    telegram: false,
     twitter: false,
     whatsapp: true,
   }, // True = activate, False = turn off
